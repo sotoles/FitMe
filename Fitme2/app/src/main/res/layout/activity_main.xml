@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg12"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titlepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:gravity="center"
+        android:lineSpacingExtra="1dp"
+        android:text="WELCOME TO \n FIT ME"
+        android:textAlignment="center"
+        android:textColor="#0d6e6a"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        app:fontFamily="sans-serif roboto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitlepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:text="Continue the Struggle \n to get maximum Output"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif typeface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlepage" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:onClick="start"
+        android:text="LOGIN"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#0d6e6a"
+        app:fontFamily="Roboto"
+        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitlepage"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:onClick="register"
+        android:text="REGISTER"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#0d6e6a"
+        app:fontFamily="Roboto"
+        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitlepage"
+        app:layout_constraintVertical_bias="0.741" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:text="Make your body health and physically fit"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlepage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

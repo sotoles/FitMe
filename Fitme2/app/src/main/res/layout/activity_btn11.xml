@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg12"
+    android:orientation="vertical"
+    tools:context=".btn11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titlepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginTop="24dp"
+                android:lineSpacingExtra="8dp"
+                android:text="MODERATE"
+                android:textStyle="bold"
+                android:textColor="#0d6e6a"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/subtitlepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:text="Exercises for Body Composition"
+                android:textColor="#0d6e6a"
+                android:textSize="20sp"/>
+
+            <View
+                android:id="@+id/divpage"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="26dp"
+                android:background="#25293E"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/subtitlepage" />
+
+            <TextView
+                android:id="@+id/intropage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="8dp"
+                android:text="STEPS:"
+                android:textColor="#0d6e6a"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divpage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginTop="6dp"
+                android:lineSpacingExtra="5dp"
+                android:text="1.	Squat Jumps - 3-6 set, 10 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/one"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/squat_jump"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5dp"
+                android:text="2.	Split Jumps - 2-4 set, 12-20 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/two"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/split_jump"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5dp"
+                android:text="3.	Inner thigh lift - 2-3 set 12-20 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif"
+                app:layout_constraintEnd_toStartOf="@+id/td"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="449dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/three"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/inner_thigh_lift"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5dp"
+                android:text="4.	Standing kickbacks - 3-5 set, 8-12 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/four"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/standing_kickbacks"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5dp"
+                android:text="5.	Reverse trunk rotation - 3-5 set, 3-8 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/five"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/reverse_trunk"
+                android:layout_gravity="center"/>
+
+
+            <Button
+                android:id="@+id/btntry"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/button2"
+                android:onClick="enter"
+                android:padding="9dp"
+                android:text="TRY"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                app:backgroundTint="#0d6e6a"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

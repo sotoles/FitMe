@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg12"
+    android:orientation="vertical"
+    tools:context=".btn1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titlepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginTop="24dp"
+                android:lineSpacingExtra="8dp"
+                android:text="ADVANCE"
+                android:textColor="#0d6e6a"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subtitlepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:text="Exercises for Muscular Strength"
+                android:textColor="#0d6e6a"
+                android:textSize="20sp"/>
+
+            <View
+                android:id="@+id/divpage"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="26dp"
+                android:background="#25293E"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/subtitlepage" />
+
+            <TextView
+                android:id="@+id/intropage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="8dp"
+                android:text="STEPS:"
+                android:textColor="#0d6e6a"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:lineSpacingExtra="5dp"
+                android:text="1.	Arm Curl - 1 set, 10 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/one"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/arm_curl"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="40dp"
+                android:text="2.	Chess Press - 1 set, 12 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/two"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/chess_press"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="40dp"
+                android:text="3.	Forward Weighted Lunges - 1 set, 12 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif"
+                app:layout_constraintEnd_toStartOf="@+id/td"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="449dp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/three"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/forward_weighted"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5dp"
+                android:text="4.	Dumbbell Bent Over Rows - 1 set, 12 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/four"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/dumbbell_bent"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5dp"
+                android:text="5.	Power Clean and Press - 1 set, 10 reps"
+                android:textColor="#000"
+                android:textSize="23sp"
+                app:fontFamily="sans-serif"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/five"
+                android:layout_width="260dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/power_clean"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btntry"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/button2"
+                android:onClick="enter"
+                android:padding="9dp"
+                android:text="TRY"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                app:backgroundTint="#0d6e6a" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Fit me</string>
+    <string name="title_activity_navdrawer">navdrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_bmi">bmi</string>
+    <string name="menu_logout">logout</string>
+    <string name="title_activity_begin2">begin2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_btn8">btn8</string>
+
+    <string name="pose1">   Step 1: Arm circles - do it every 1 minute\n
+                            Step 2: Jumping jacks - do it every 1 minute\n
+                            Step 3: Squat jumps - do it every 1 minute\n
+                            Step 4: Trunk rotation - do it every 1 minute\n
+                            Step 5: “Screamer” lunges - do it every 1 minute\n </string>
+    <string name="pose2">   Step 1: Preacher curl - do it every 1 minute\n
+                            Step 2: Seated triceps press - do it every 1 minute\n
+                            Step 3: Standing extensions - do it every 1 minute\n
+                            Step 4: Arm muscle toner - do it every 1 minute\n
+                            Step 5: Carry all curl - do it every 1 minute\n </string>
+    <string name="pose3">   Step 1: High knees - do it every 1 minute\n
+                            Step 2: Butt kicks - do it every 1 minute\n
+                            Step 3: Speed Skaters - do it every 1 minute\n
+                            Step 4: Crab Walks - do it every 1 minute\n
+                            Step 5: Oblique Crunch - do it every 1 minute\n </string>
+    <string name="pose4">   Step 1: Squat - do it every 1 minute\n
+                            Step 2: Reverse Lunge - do it every 1 minute\n
+                            Step 3: Push-Up - do it every 1 minute\n
+                            Step 4: Plank - do it every 1 minute\n
+                            Step 5: Lateral Raise - do it every 1 minute\n </string>
+    <string name="pose5">   Step 1: Reverse grip dips - do it every 1 minute\n
+                            Step 2: Kneeling curl - do it every 1 minute\n
+                            Step 3: Straight arm lifts - do it every 1 minute\n
+                            Step 4: Concentration curls - do it every 1 minute\n
+                            Step 5: Hammer curls - do it every 1 minute\n </string>
+    <string name="pose6">   Step 1: Arm Curl - do it every 1 minute\n
+                            Step 2: Chess Press - do it every 1 minute\n
+                            Step 3: Forward Weighted Lunges - do it every 1 minute\n
+                            Step 4: Dumbbell Bent Over Rows - do it every 1 minute\n
+                            Step 5: Power Clean and Press - do it every 1 minute\n </string>
+    <string name="pose7">   Step 1: Leg Press - do it every 1 minute\n
+                            Step 2: Leg Curl - do it every 1 minute\n
+                            Step 3: Vertical Bench - do it every 1 minute\n
+                            Step 4: Lat Pulldown - do it every 1 minute\n
+                            Step 5: Gluteus Kick Back - do it every 1 minute\n </string>
+    <string name="pose8">   Step 1: Dumbbell lunges - do it every 1 minute\n
+                            Step 2: Dumbbell step up and step down- do it every 1 minute\n
+                            Step 3: Front squat - do it every 1 minute\n
+                            Step 4: Leg extension - do it every 1 minute\n
+                            Step 5: Extended wall sits - do it every 1 minute\n </string>
+    <string name="pose9">   Step 1: Body Weight Squat - do it every 1 minute\n
+                            Step 2: Walking lunges - do it every 1 minute\n
+                            Step 3: Crunches - do it every 1 minute\n
+                            Step 4: Kettlebell Swings - do it every 1 minute\n
+                            Step 5: Farmers Walk - do it every 1 minute\n </string>
+    <string name="pose10">  Step 1: Burpees - do it every 1 minute\n
+                            Step 2: Explosive lunge jump - do it every 1 minute\n
+                            Step 3: Lunge Jumps - do it every 1 minute\n
+                            Step 4: Ab and Core Workouts - do it every 1 minute\n </string>
+    <string name="pose11">  Step 1: Squat Jumps - do it every 1 minute\n
+                            Step 2: Split Jumps - do it every 1 minute\n
+                            Step 3: Inner thigh lift - do it every 1 minute\n
+                            Step 4: Standing kickbacks - do it every 1 minute\n
+                            Step 5: Reverse trunk rotation - do it every 1 minute\n </string>
+    <string name="pose12">  Step 1: Push up - do it every 1 minute\n
+                            Step 2: Squat - do it every 1 minute\n
+                            Step 3: Crunches - do it every 1 minute\n
+                            Step 4: Planks - do it every 1 minute\n </string>
+    <string name="pose13">  Step 1: Standing Hamstring Stretch - do it every 1 minute\n
+                            Step 2: Piriformis Stretch - do it every 1 minute\n
+                            Step 3: Lunge With Spinal Twist - do it every 1 minute\n
+                            Step 4: Triceps Stretch - do it every 1 minute\n
+                            Step 5: Figure Four Stretch - do it every 1 minute\n </string>
+    <string name="pose14">  Step 1: Hamstring - do it every 1 minute\n
+                            Step 2: Tight - do it every 1 minute\n
+                            Step 3: Calves - do it every 1 minute\n
+                            Step 4: Foot stretches - do it every 1 minute\n
+                            Step 5: Hip flexions - do it every 1 minute\n </string>
+    <string name="pose15">  Step 1: Blackburn - do it every 1 minute\n
+                            Step 2: Origami stretch - do it every 1 minute\n
+                            Step 3: Lower back knee drop - do it every 1 minute\n
+                            Step 4: Piriformis massage - do it every 1 minute\n
+                            Step 5: Calf massage - do it every 1 minute\n </string>
+
+    <string name="poseA">   Underweight \n - milk, rice , red meat, nuts, whole grain breads,
+                            salmon, avocado, dark chocolate, eggs. \n\n
+                            Normal Weight \n - whole grains, vegetables, whole fruits,
+                            fish and poultry, calcium rich foods, meats. \n\n
+                            Overweight \n - beans, soup, dark chocolate, pureed vegetables,
+                            yogurt with berries, apples, nuts, grape fruit. \n\n
+                            Obese \n - salad, cabbage, beetroot, dinner recipes, mushroom,
+                            chicken, eggs, vegetables. </string>
+    <string name="cm">12</string>
+
+</resources>
